@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Student dashboard | Harvard Extention Training College</title>
+<meta name="description" content="Your online learning dashboard at Harvard Extention Training College.">
+<meta name="theme-color" content="#2E1068">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:site_name" content="Harvard Extention Training College">
+<meta property="og:title" content="Student dashboard | Harvard Extention Training College">
+<meta property="og:description" content="Your online learning dashboard at Harvard Extention Training College.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/logo.png">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&amp;family=Source+Serif+4:wght@600;700&amp;display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="student-dashboard">
+<a class="skip" href="#main">Skip to main content</a>
+<div class="topbar"><div class="container">
+<div class="topbar-contact"><a href="tel:+254705355475"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-phone"/></svg><span>0705 355 475</span></a><a class="topbar-mail" href="mailto:harvardextentioncollege@gmail.com"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-mail"/></svg><span>harvardextentioncollege@gmail.com</span></a></div>
+<div class="social"><a href="https://www.facebook.com/share/p/1F5KocmT9Y/" target="_blank" rel="noopener noreferrer" aria-label="Harvard Extention on Facebook (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-facebook"/></svg></a><a href="https://www.tiktok.com/@harvard.extention?_r=1&amp;_t=ZS-9BG1RWdycZp" target="_blank" rel="noopener noreferrer" aria-label="Harvard Extention on TikTok (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-tiktok"/></svg></a></div>
+</div></div>
+<header class="site-header"><nav class="container mainnav" id="mainNav" aria-label="Main">
+<a class="brand" href="index.html" aria-label="Harvard Extention Training College, home"><img src="assets/img/logo-sm.png" width="54" height="58" alt="Harvard Extention Training College logo"></a>
+<ul class="nav-menu" id="navMenu"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="departments.html">Departments</a></li><li><a href="online-classes.html">Online Classes</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="campus-life.html">Campus Life</a></li><li><a href="news.html">News</a></li><li><a href="contact.html">Contact</a></li><li class="nav-extra"><a class="btn btn-outline" href="student-login.html">Student login</a><a class="btn btn-gold" href="admissions.html#application">Apply now</a></li></ul>
+<div class="nav-actions"><a class="btn btn-outline btn-sm nav-login" href="student-login.html">Student login</a><a class="btn btn-gold btn-sm nav-apply" href="admissions.html#application">Apply now</a>
+<button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu"><svg class="icon i-menu" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-menu"/></svg><svg class="icon i-close" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-close"/></svg></button></div>
+</nav></header>
+<main id="main">
+<section class="dash-head"><div class="container"><div><h1>Welcome, <span id="dashName"></span></h1><p>Admission number: <strong id="dashAdm"></strong></p></div>
+<button class="btn btn-light btn-sm" id="logoutBtn" type="button"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-logout"/></svg><span>Sign out</span></button></div></section>
+<section class="section"><div class="container"><div id="dashLoading" class="loading" role="status">Loading your dashboard...</div><div id="dashFlash"></div>
+<div class="dash hidden" id="dashBody"><div id="dashMain"></div>
+<aside><h2>Announcements</h2><div id="dashNews"></div>
+<div class="note"><p>You are signed out automatically after <span id="dashIdle">30</span> minutes of inactivity.</p><p>Need help? <a href="contact.html">Contact admissions</a>. <a href="student-password.html">Change password</a>.</p></div></aside></div>
+<noscript><p>The student dashboard needs JavaScript.</p></noscript></div></section>
+</main>
+<footer class="site-footer"><div class="container footer-main">
+<div><img class="footer-logo" src="assets/img/logo-sm.png" width="72" height="77" alt="Harvard Extention Training College logo" loading="lazy"><p class="footer-about">Practical, industry-based training in Nakuru across seven departments.</p>
+<div class="footer-social"><a href="https://www.facebook.com/share/p/1F5KocmT9Y/" target="_blank" rel="noopener noreferrer" aria-label="Harvard Extention on Facebook (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-facebook"/></svg></a><a href="https://www.tiktok.com/@harvard.extention?_r=1&amp;_t=ZS-9BG1RWdycZp" target="_blank" rel="noopener noreferrer" aria-label="Harvard Extention on TikTok (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-tiktok"/></svg></a></div></div>
+<nav aria-label="Footer quick links"><h3>Quick links</h3><ul><li><a href="about.html">About</a></li><li><a href="departments.html">Departments</a></li><li><a href="online-classes.html">Online Classes</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="campus-life.html">Campus Life</a></li><li><a href="news.html">News</a></li><li><a href="contact.html">Contact</a></li><li><a href="student-login.html">Student login</a></li></ul></nav>
+<nav aria-label="Footer departments"><h3>Departments</h3><ul><li><a href="department.html?dept=health">Health &amp; Social Sciences</a></li><li><a href="department.html?dept=business">Business</a></li><li><a href="department.html?dept=eng">Engineering &amp; ICT</a></li><li><a href="department.html?dept=hospitality">Hospitality</a></li><li><a href="department.html?dept=languages">Foreign Languages</a></li><li><a href="department.html?dept=cosmetology">Cosmetology</a></li><li><a href="department.html?dept=fashion">Fashion &amp; Design</a></li></ul></nav>
+<div><h3>Contact</h3><ul class="footer-contact">
+<li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-phone"/></svg><a href="tel:+254705355475">0705 355 475</a></li>
+<li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-whatsapp"/></svg><a href="https://wa.me/254705355475?text=Hello%20Harvard%20Extention%20Training%20College%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener noreferrer">Message admissions on WhatsApp</a></li>
+<li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-mail"/></svg><a href="mailto:harvardextentioncollege@gmail.com">harvardextentioncollege@gmail.com</a></li>
+<li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-pin"/></svg><span>Nakuru, Kenya</span></li></ul></div>
+</div>
+<div class="footer-bar"><div class="container"><p>&copy; <span data-year>2026</span> Harvard Extention Training College. All rights reserved.</p><p>Developed by Baba Nile Digital Africa</p></div></div>
+</footer>
+<a class="wa" href="https://wa.me/254705355475?text=Hello%20Harvard%20Extention%20Training%20College%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener noreferrer" aria-label="Chat with admissions on WhatsApp (opens in a new tab)" title="Chat with admissions on WhatsApp"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/img/icons.svg#i-whatsapp"/></svg></a>
+<script src="assets/js/data.js" defer></script><script src="assets/js/site.js" defer></script><script src="assets/js/portal.js" defer></script>
+</body>
+</html>
