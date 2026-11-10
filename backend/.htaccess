@@ -1,0 +1,2 @@
+# Defence in depth: this folder must live OUTSIDE public_html. If it is ever web-accessible, deny everything.
+Require all denied

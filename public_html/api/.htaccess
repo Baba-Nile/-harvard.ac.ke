@@ -1,0 +1,9 @@
+# API: only the endpoint scripts are reachable. Files beginning with an underscore are internal includes.
+Options -Indexes
+<FilesMatch "^_">
+  Require all denied
+</FilesMatch>
+<IfModule mod_headers.c>
+  Header set Cache-Control "no-store"
+  Header set X-Robots-Tag "noindex, nofollow"
+</IfModule>

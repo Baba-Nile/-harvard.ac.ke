@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /student-dashboard.html
+Disallow: /student-password.html
+Disallow: /student-forgot.html
